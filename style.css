@@ -21,7 +21,7 @@
   flex-direction: column;
 }
 
-.header {
+header {
   background-color: #1f2937;
   color: #f9faf8;
   display: flex;
@@ -177,4 +177,79 @@ li:hover {
   font-size: 24px;
   align-self: flex-end;
   margin-right: 40px;
+}
+
+.m4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.m4 .box {
+  box-sizing: border-box;
+  width: 1000px;
+  height: 125px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 25px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.m4 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.call-to-action {
+  color: #f9faf8;
+  font-family: Roboto;
+  margin: 0;
+  font-size: 18px;
+}
+
+.m4 .subtext {
+  margin: 0;
+  color: #f9faf8;
+  font-family: RobotoLight;
+  font-size: 14px;
+}
+
+.bttn-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-grow: 1;
+}
+
+.bttn-container .signup {
+  font-family: Roboto;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+}
+
+.bttn-container .signup:hover {
+  text-decoration: underline;
+  cursor: grab;
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #f9faf8;
+  font-family: RobotoLight;
 }
